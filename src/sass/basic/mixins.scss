@@ -11,3 +11,24 @@
     font-weight: 400;
     line-height: 88px;
 }
+
+@mixin button {
+    width: 178px;
+    height: 51px;
+    color: $light;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    background-color: $main_color;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    transition: 0.7s;
+
+    &:hover {
+
+        background-color: #FFFFFF;
+        color: $main_color;
+    }
+}

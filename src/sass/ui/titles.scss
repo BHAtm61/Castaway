@@ -5,3 +5,8 @@
     @include title;
     font-size: 70px;
 }
+
+.title-h2 {
+    @include title;
+    font-size: 65px;
+}
