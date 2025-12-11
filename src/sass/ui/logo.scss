@@ -1,0 +1,6 @@
+@use"/src/sass/basic/variables.scss" as *;
+@use"/src/sass/basic/mixins.scss" as *;
+
+.logo {
+    @include logo;
+}

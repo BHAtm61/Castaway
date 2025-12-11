@@ -1,0 +1,13 @@
+@use"/src/sass/basic/variables.scss" as *;
+
+@mixin logo {
+    color: $light;
+    font-size: 40px;
+}
+
+@mixin title {
+    color: $light;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+}

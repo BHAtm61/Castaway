@@ -1,0 +1,40 @@
+@use "/src/sass/basic/variables.scss" as *;
+
+.header {
+    padding-top: 43px;
+
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.navigation {
+    &_wrapper {
+        display: flex;
+        column-gap: 40px;
+        align-items: center;
+    }
+
+    &_link {
+        color: $light;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+
+        &:hover {
+            color: $main_color;
+            transition: 0.5s;
+        }
+
+        &:active {
+            color: $main_color;
+        }
+
+        &:focus {
+            color: $main_color;
+        }
+    }
+}

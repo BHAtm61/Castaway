@@ -1,0 +1,12 @@
+@use"/src/sass/basic/variables.scss" as *;
+
+body {
+    font-family: "DM Sans";
+    background-color: $bg_color;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 50px;
+}

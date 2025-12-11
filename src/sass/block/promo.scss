@@ -1,0 +1,79 @@
+@use"/src/sass/basic/variables.scss" as *;
+
+.promo {
+    padding-top: 83px;
+
+    &_wrapper {
+        display: flex;
+        column-gap: 60px;
+        flex-wrap: wrap;
+
+    }
+
+    &_img {
+        border-radius: 30px;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+
+
+        &-block {
+            position: relative;
+            width: 50%;
+
+
+
+            &::before {
+                content: url(/src/img/promo/lines.svg);
+                position: absolute;
+                top: -23px;
+                left: -24px;
+
+            }
+        }
+    }
+
+    &_title {
+        margin-top: 300px;
+
+        .under_line {
+            position: relative;
+            font-size: 75px;
+
+            &::after {
+                content: url(/src/img/promo/under_line.svg);
+                position: absolute;
+                left: 0;
+            }
+        }
+
+        .big {
+            font-size: 80px;
+            font-weight: 700;
+            margin-left: 20px;
+        }
+    }
+
+
+}
+
+.media {
+    &_wrapper {
+        margin-top: 90px;
+    }
+
+    &_title {
+        color: $light;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    &_group {
+        display: flex;
+        column-gap: 10px;
+        margin-top: 16px;
+        flex-wrap: wrap;
+    }
+}
